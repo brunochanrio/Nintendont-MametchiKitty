@@ -21,7 +21,6 @@ A Wii Homebrew Project to play GC Games on Wii and vWii on Wii U
 * Use the official Nintendo GameCube controller adapter
 * BBA Emulation (see [BBA Emulation Readme](BBA_Readme.md))
 * Support 3rd Party Wiimotes, like the NEW 2in1 Motion plus or the Motion 2in1 Wiimotes
-* Support Xbox 360 Controllers and XInput Controller that acts as the Xbox 360 Controller
 
 ### Features: (Wii only)
 * Play retail discs
