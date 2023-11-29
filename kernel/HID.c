@@ -196,19 +196,15 @@ s32 HIDOpen( u32 LoaderRequest )
 			memset32(io_buffer, 0, 0x20);
 			io_buffer[0] = DeviceID;
 			io_buffer[2] = 1; //resume device
-			s32 res = IOS_Ioctl(HIDHandle, ResumeDevice, io_buffer, 0x20, NULL, 0);
-			if( res < 0 )
-				dbgprintf("ResumeDevice error=%d\r\n", res );
-
+			IOS_Ioctl(HIDHandle, ResumeDevice, io_buffer, 0x20, NULL, 0);
+	
 			memset32(HIDHeap, 0, length_heap);
 
 			memset32(io_buffer, 0, 0x20);
 			io_buffer[0] = DeviceID;
 			io_buffer[2] = 0;
-			res = IOS_Ioctl(HIDHandle, GetDeviceParameters, io_buffer, 0x20, HIDHeap, length_heap);
-			if( res < 0 )
-				dbgprintf("GetDeviceParameters error=%d\r\n", res );
-
+			IOS_Ioctl(HIDHandle, GetDeviceParameters, io_buffer, 0x20, HIDHeap, length_heap);
+			
 			//BootStatusError(8, 0);
 
 			// Offset from USBV5_GetDescriptors()
