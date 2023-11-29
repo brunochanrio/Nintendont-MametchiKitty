@@ -2,14 +2,12 @@
 <app version="1">
 	<name>Nintendont-MametchiKitty</name>
 	<coder>FIX94, crediar, brunochanrio</coder>
-	<version>0.1</version>
-	<release_date>20231119000000</release_date>
+	<version>0.2-MametchiKitty</version>
+	<release_date>20160710000000</release_date>
 	<short_description>Gamecube Loader</short_description>
-	<long_description>Commiters: GerbilSoft, JoostinOnline, GreyRogue, Howard, Cyan, nastys 
+	<long_description>Commiters: GerbilSoft, JoostinOnline, GreyRogue, Howard, Cyan, brunochanrio c Project website: https://github.com/brunochanrio/Nintendont-MametchiKitty 
 
- Project website: https://github.com/brunochanrio/Nintendont-MametchiKitty 
-
-Nintendont-MametchiKitty allows you to run GameCube games on a Wii or Wii U from an SD or HDD device.</long_description>
+Nintendont allows you to run GameCube games on a Wii or Wii U from an SD or HDD device.</long_description>
 	<no_ios_reload/>
 	<ahb_access/>
 </app>
